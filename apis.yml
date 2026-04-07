@@ -1,7 +1,11 @@
 aid: hubbell
-url: https://raw.githubusercontent.com/api-evangelist/hubbell/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/hubbell/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.hubbell.com
+description: >-
+  Hubbell is a global manufacturer of high-quality electrical and electronic products
+  for non-residential and residential construction, industrial, and utility applications.
