@@ -1,0 +1,44 @@
+aid: hubbell:hubbell-rules
+name: Hubbell Rules
+description: >-
+  Operating rules and guidelines for tracking Hubbell developer and
+  integration resources as they become available.
+type: Rules
+tags:
+  - Electrical
+  - Infrastructure
+  - Utilities
+  - Rules
+rules:
+  - name: Verify Public Endpoints
+    description: >-
+      Only document Hubbell endpoints that are publicly reachable and
+      have published terms of use. Do not include partner only or EDI
+      endpoints in apis.yml.
+  - name: Separate Hubbell Connect From Public APIs
+    description: >-
+      Hubbell Connect is an authenticated customer experience and is
+      not equivalent to a developer API. Track it as a customer portal
+      property rather than as an API.
+  - name: Track EDI Channels Distinctly
+    description: >-
+      EDI capabilities are partner integration channels rather than web
+      APIs. Document them with type EDI when they appear, not as API
+      properties.
+  - name: Map By Business Unit
+    description: >-
+      Hubbell spans Power and Utilities, Lighting and Controls, Wiring
+      and Electrical, and Datacom. Tag any future APIs with the
+      relevant business unit so consumers can filter by domain.
+  - name: Cite Authoritative Sources
+    description: >-
+      Pull descriptions and specifications from the official Hubbell
+      website and division specific microsites rather than third party
+      summaries.
+  - name: Update Modified Date On Change
+    description: >-
+      Whenever apis.yml is updated, set the modified field to the current
+      date so downstream tooling can detect changes.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
