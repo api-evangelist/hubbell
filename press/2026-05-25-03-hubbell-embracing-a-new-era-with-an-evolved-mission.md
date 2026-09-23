@@ -1,7 +1,9 @@
 ---
 title: 'Hubbell: Embracing a New Era with an Evolved Mission ...'
 url: https://www.prnewswire.com/news-releases/hubbell-embracing-a-new-era-with-an-evolved-mission-and-brand-identity-302161360.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hubbell" press release artificial intelligence'
 position: 3
 source: serpapi-google

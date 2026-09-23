@@ -1,10 +1,10 @@
-aid: hubbell:hubbell-rules
-name: Hubbell Rules
+x-aid: hubbell:hubbell-rules
+x-name: Hubbell Rules
 description: >-
   Operating rules and guidelines for tracking Hubbell developer and
   integration resources as they become available.
-type: Rules
-tags:
+x-type: Rules
+x-tags:
   - Electrical
   - Infrastructure
   - Utilities
@@ -39,6 +39,6 @@ rules:
     description: >-
       Whenever apis.yml is updated, set the modified field to the current
       date so downstream tooling can detect changes.
-maintainers:
+x-maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

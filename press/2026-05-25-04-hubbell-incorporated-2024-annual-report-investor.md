@@ -1,7 +1,9 @@
 ---
 title: Hubbell Incorporated 2024 Annual Report - Investor
 url: https://investor.hubbell.com/ar2024/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hubbell" press release artificial intelligence'
 position: 4
 source: serpapi-google

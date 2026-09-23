@@ -1,7 +1,9 @@
 ---
 title: Aclara Partners with Utilidata to Bring Distributed AI to the Grid ...
 url: https://hubbell.gcs-web.com/news-releases/news-release-details/aclara-partners-utilidata-bring-distributed-ai-grid-edge
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Hubbell" press release artificial intelligence'
 position: 1
 source: serpapi-google
